@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabele porównawcze</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            margin: 20px;
+            float: left;
+        }
+        
+        td {
+            width: 40px;
+            height: 40px;
+            border: 1px solid black;
+            text-align: center;
+        }
+        
+        .header {
+            background-color: lightblue;
+        }
+        
+        .highlighted {
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <!-- Pierwsza tabela -->
+    <table>
+        <tr>
+            <td class="header">1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td class="header">2</td>
+            <td>a</td>
+            <td class="highlighted">b</td>
+            <td>c</td>
+            <td>d</td>
+            <td>e</td>
+        </tr>
+        <tr>
+            <td class="header">3</td>
+            <td>f</td>
+            <td>g</td>
+            <td>h</td>
+            <td>i</td>
+            <td class="highlighted">j</td>
+        </tr>
+        <tr>
+            <td class="header">4</td>
+            <td>k</td>
+            <td>l</td>
+            <td>m</td>
+            <td>n</td>
+            <td class="highlighted">o</td>
+        </tr>
+        <tr>
+            <td class="header">5</td>
+            <td class="highlighted">p</td>
+            <td class="highlighted">q</td>
+            <td class="highlighted">r</td>
+            <td>s</td>
+            <td>t</td>
+        </tr>
+        <tr>
+            <td class="header">6</td>
+            <td>u</td>
+            <td>v</td>
+            <td>w</td>
+            <td>y</td>
+            <td>z</td>
+        </tr>
+    </table>
+
+    <!-- Druga tabela -->
+    <table>
+        <tr>
+            <td class="header">1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td class="header">2</td>
+            <td>a</td>
+            <td class="highlighted" colspan="2">b, c</td>
+            <td>d</td>
+            <td>e</td>
+        </tr>
+        <tr>
+            <td class="header">3</td>
+            <td>f</td>
+            <td>g</td>
+            <td>h</td>
+            <td>i</td>
+            <td class="highlighted">j, o</td>
+        </tr>
+        <tr>
+            <td class="header">4</td>
+            <td>k</td>
+            <td>l</td>
+            <td>m</td>
+            <td>n</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="header">5</td>
+            <td class="highlighted" colspan="3">p, q, r, u, v, w</td>
+            <td>s</td>
+            <td>t</td>
+        </tr>
+        <tr>
+            <td class="header">6</td>
+            <td colspan="3"></td>
+            <td>y</td>
+            <td>z</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td class="header">1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td class="header">2</td>
+            <td>a</td>
+            <td class="highlighted">b</td>
+            <td>c</td>
+            <td>d</td>
+            <td>e</td>
+        </tr>
+        <tr>
+            <td class="header">3</td>
+            <td>f</td>
+            <td>g</td>
+            <td>h</td>
+            <td>i</td>
+            <td class="highlighted">j</td>
+        </tr>
+        <tr>
+            <td class="header">4</td>
+        <td>k</td>
+        <td>l</td>
+        <td colspan="2">m, n</td>
+        <td class="highlighted">o</td>
+        </tr>
+        <tr>
+            <td class="header">5</td>
+            <td class="highlighted">p</td>
+            <td class="highlighted">q</td>
+            <td class="highlighted">r</td>
+            <td>s</td>
+            <td>t</td>
+        </tr>
+        <tr>
+            <td class="header">6</td>
+            <td>u</td>
+            <td>v</td>
+            <td>w</td>
+            <td>y</td>
+            <td>z</td>
+        </tr>
+    </table>
+</body>
+</html>
