@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Tabele porównawcze</title>
     <style>
+        #green{background-color: lightgreen;}
         table {
             border-collapse: collapse;
             margin: 20px;
@@ -27,6 +28,7 @@
     </style>
 </head>
 <body>
+    <h1>Pierwsza Tabela</h1>
     <!-- Pierwsza tabela -->
     <table>
         <tr>
@@ -80,6 +82,7 @@
     </table>
 
     <!-- Druga tabela -->
+     <h2>Druga tebale</h2>
     <table>
         <tr>
             <td class="header">1</td>
@@ -114,17 +117,17 @@
         </tr>
         <tr>
             <td class="header">5</td>
-            <td class="highlighted" colspan="3">p, q, r, u, v, w</td>
+            <td colspan="3" rowspan="2" id="green">p, q, r, u, v, w</td>
             <td>s</td>
             <td>t</td>
         </tr>
         <tr>
             <td class="header">6</td>
-            <td colspan="3"></td>
             <td>y</td>
             <td>z</td>
         </tr>
     </table>
+    <h3>Trzecie Tabela</h3>
     <table>
         <tr>
             <td class="header">1</td>
@@ -174,5 +177,11 @@
             <td>z</td>
         </tr>
     </table>
+
+   
+    
+  
+    
+    
 </body>
 </html>
