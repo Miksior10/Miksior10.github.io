@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+    <title>Definiowanie kotwicy w konkretnym miejscu strony</title>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="HTML5, kotwica, odsyłacz, link, hiperłącze" />
+    <meta name="description" content="Przykład definiowania kotwicy w konkretnym miejscu strony" />
+    <meta name="author" content="Maks Nowak 4D" />
+    <meta name="robots" content="all" />
+</head>
+<body>
+    <h1>Jak definiujemy ciekawą gierzeczkę</h1>
+
+    <section id="a_top">
+        <h2>Tutaj zdefiniowaliśmy gre na konsole <i>a_top</i></h2>
+        <a href="#a_bottom">To jest link do God Of War Ragnarok </a>
+        <figure>
+            <img src="GOT.jpg" />
+            <figcaption> Ghost of Tsushima</figcaption>
+        </figure>
+    </section>
+
+    <br /><br /><br />
+
+    <section>
+        <p>
+            Zdefiniowanie kotwicy w konkretnym miejscu dokumentu HTML<br />
+            i wskazanie tej kotwicy w linku do tego dokumentu,<br />
+            spowoduje po jego otwarciu, przewinięcie<br />
+            tak aby wiersz zawierający kotwicę znajdował się jak najbliżej górnej krawędzi okna przeglądarki.<br />
+            Aby było to przejrzyste dodamy dwa rysunki kotwic oraz linie puste,<br />
+            a następnie, zdefiniujemy dwie kotwice.
+        </p>
+    </section>
+
+    <br /><br /><br />
+
+    <section id="a_bottom">
+        <h2>Tutaj została zdefiniowana God Of War Ragnarok <i>a_bottom</i></h2>
+        <a href="#a_top">To jest link do Ghost of Tsushima górnej</a>
+        <figure>
+            <img src="GOT2.jpg" />
+            <figcaption>God Of War Ragnarok</figcaption>
+        </figure>
+    </section>
+</body>
+<a href="index.html">Powrót do strony głownej</a>
+</html>
