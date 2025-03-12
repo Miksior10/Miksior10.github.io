@@ -1,0 +1,8 @@
+Próba logowania - Username: admin
+Znaleziono użytkownika: TAK
+Próba logowania - Username: admin
+Znaleziono użytkownika: TAK
+Próba logowania - Username: admin
+Znaleziono użytkownika: TAK
+Próba logowania - Username: admin@sklepu.pl
+Znaleziono użytkownika: NIE
