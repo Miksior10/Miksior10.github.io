@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Struktura szkoły</title>
+    <style>
+        /* Kolory dla różnych list */
+        ol.roman {
+            list-style-type: upper-roman;
+            color: red;
+        }
+
+        ol.alpha {
+            list-style-type: lower-alpha;
+            color: green;
+        }
+
+        ul.square {
+            list-style-type: square;
+            color: orange;
+        }
+
+        ul.circle {
+            list-style-type: circle;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <ol class="roman">
+        <li>Powiatowe Centrum Kształcenia Zawodowego i Ustawicznego
+            <ol class="roman">
+                <li>Technikum
+                    <ol class="alpha">
+                        <li>Technikum Ekonomiczne</li>
+                        <li>Technikum Informatyczne
+                            <ul class="square">
+                                <li>Klasa 1 K</li>
+                                <li>Klasa 2 K</li>
+                                <li>Klasa 3 K</li>
+                                <li>Klasa 4 K</li>
+                            </ul>
+                        </li>
+                        <li>Technikum Hotelarskie</li>
+                        <li>Technikum Gastronomiczne</li>
+                    </ol>
+                </li>
+                <li>Szkoła Branżowa
+                    <ul class="circle">
+                        <li>I stopnia</li>
+                        <li>II stopnia</li>
+                    </ul>
+                </li>
+            </ol>
+        </li>
+    </ol>
+</body>
+</html>
